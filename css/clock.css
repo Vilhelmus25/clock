@@ -1,14 +1,35 @@
 html {
-    font-size: 52px;
+    font-size: 96px;
+}
+@font-face{
+    
+    font-family: cyberVerse;
+    src: url(Cyberverse.otf);
 }
 
 body {
+   font-family: cyberVerse;
     min-height:100%;
     margin: 0;
     padding: 0;
+    background-color: #000000;
 }
 
 * {
     box-sizing: border-box;
 }
 
+.clock{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding: 0rem;
+}
+
+.clock__display{
+    position: absolute;
+    top: 43.19%;
+    padding: 0rem;
+    border: 0rem;
+    color: #049db8;
+}
